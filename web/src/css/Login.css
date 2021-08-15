@@ -1,0 +1,11 @@
+.Login {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login > h2 {
+    color: #ffdf00;
+    font-size: 3rem;
+}
