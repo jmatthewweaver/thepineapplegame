@@ -1,4 +1,5 @@
 import React from "react";
+import "../css/GameManager.css";
 
 class GameManager
     extends React.Component {
@@ -6,11 +7,9 @@ class GameManager
 
     render() {
         return (
-            <div>
-                <ul>
-                    <li>Create Game</li>
-                    <li>Join Game</li>
-                </ul>
+            <div className="GameManager">
+                <a className="button">Create Game</a>
+                <a className="button">Join Game</a>
             </div>
         );
     }

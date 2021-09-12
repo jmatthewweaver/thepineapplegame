@@ -12,7 +12,6 @@ extends React.Component {
           {!this.props.auth.idToken && <Login/>}
           {!!this.props.auth.idToken &&
           <div className="Game">
-
             <GameManager/>
           </div>}
         </div>
